@@ -38,8 +38,16 @@ console.log(n1 + n2) //soma
 console.log(n1 - n2) //subtração
 console.log(n1 / n2) //divisão
 console.log(n1 * n2) // multiplicação
-//     Operadores relacionais
-//     Operadores lógicos
+console.log(n1 % 3) // operador de modulo ou resto da divisão
+
+//     Operadores relacionais (>,< , >=, <=, !=, ==)
+console.log(n1 == n2) // igualdade
+console.log(n1 != n2) // diferente
+console.log(n1 > n2) // maior
+console.log(10 <= 10) // menor igual
+console.log(150 >= 175) // maior igual
+
+//     Operadores lógicos (!, &&, ||)
 
 // Estrutura
 //     Estrutura de controle/decisão
@@ -67,7 +75,28 @@ for(let i=1; i<=50; i=i+1){
     console.log(i)
 }
 
-// Arrays 
+// Arrays --> vetor
+let alunos = ["João", "Paulo", "Renata", "Cris", "x"]
+console.log(alunos)
+console.log(alunos[2])
+alunos[4] = "Kleber"
+console.log(alunos)
+alunos.push("Karem")
+console.log(alunos)
+
+let frutas = []
+console.log(frutas)
+frutas.push("🍉")
+frutas.push("🍓")
+frutas.push("🍐")
+frutas.push("🍇")
+frutas.push("🍈")
+frutas.push("🍊")
+frutas.push("🍋‍🟩")
+frutas.push("🍌")
+frutas.push("🍑")
+frutas.push("🥑")
+console.log(frutas)
 
 // Funções básicas
 // Escopo
