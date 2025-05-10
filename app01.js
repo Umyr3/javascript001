@@ -48,7 +48,22 @@ console.log(10 <= 10) // menor igual
 console.log(150 >= 175) // maior igual
 
 //     Operadores lógicos (!, &&, ||)
+console.log(!10 >2) // (! não) - inverte o resultado, se for verdadeiro muda para o falso e vice verse
+console.log(!false)
 
+console.log(10 > 2 && 35 < 100 && n1 > n2 && 100 < 90) // E - 
+console.log(!false)
+
+console.log(10 > 2 || 100 == 150 || 57 == 57) // (Ou ||) Apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro // o resultado só será falso quando todas as afirmações forem falsas
+
+// desafio 
+
+let preco = 100
+let precoAcrescimo = 0
+let precoDesconto = 0
+
+// faça um código que acrescente 17% ao preço e imprima
+precoAcrescimo = preco + preco * 0.17
 // Estrutura
 //     Estrutura de controle/decisão
 //     Laços de repetição
@@ -99,6 +114,14 @@ frutas.push("🥑")
 console.log(frutas)
 
 // Funções básicas
+
+function soma(num1, num2) {
+    let total = num1 + num2
+    console.log("O resultado é " + total)
+}
+
+soma(100, 14)
+soma(7, 3)
 // Escopo
 
 
