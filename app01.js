@@ -64,6 +64,7 @@ let precoDesconto = 0
 
 // faça um código que acrescente 17% ao preço e imprima
 precoAcrescimo = preco + preco * 0.17
+console.log("Preço com acrescimo:")
 // Estrutura
 //     Estrutura de controle/decisão
 //     Laços de repetição
